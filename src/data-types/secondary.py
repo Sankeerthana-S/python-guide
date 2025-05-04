@@ -6,7 +6,8 @@
 # List Type
 
 # List of elements of same data type
-list1 = [4,7,10]
+# List always starts with index 0
+list1 = [7,4,10]
 list2 = ["apple", "orange", ""]
 list3 = [False, False, True, False]
 
@@ -77,5 +78,9 @@ print("Removed an element at index 1 in the list1:", list1)
 # Remove all elements in a list / Empty a list
 list1.clear()
 print("Cleared the list1:", list1)
+print("_________________________________________________________________________________________________")
 
+# Length of a list
+laptops = ["Hp", "Mac", "Dell"]
+print(len(laptops))
 print("_________________________________________________________________________________________________")

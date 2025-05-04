@@ -9,7 +9,6 @@
 # ____________________________________________________________________________________________
 
 # String / Text Type
-
 str1 = "Sankeerthana" # The stored data is a text
 str2 = str("Sankeerthana") # specify the data type using the constructor function
 str3 = str() # calling empty str constructor will produce value ""
@@ -37,14 +36,14 @@ float5 = float(-24.7) # specify the data type using the constructor function
 float6 = float() # calling empty float constructor will produce value 0.0
 
 # Casting a string value to float
-float6 = float("1") # string with only numbers can be converted number, value is 1.0
+float7 = float("1") # string with only numbers can be converted number, value is 1.0
 
 # Casting a floating value to fixed integer
 num7 = int(91.3) # stored value is 91
 num8 = int(5 / 2) # stored value is 2
 
 # similarly a fixed integer can be cast to a floating value
-float7 = float(32) # stored value is 32.0
+float8 = float(32) # stored value is 32.0
 
 
 # complex - The stored data is an imaginary value
@@ -74,7 +73,7 @@ noValue = None
 
 # bool - The stored data is either "True" or "False"
 bool1 = True # directly store the boolean value
-bool2 = 4 < 2 # store the resultant value (True) of a comparison expression
+bool2 = 4 < 2 # store the resultant value (False) of a comparison expression
 bool3 = bool() # calling empty bool constructor will produce value False
 
 # Casting any data type to boolean will provide the falsy or truthy nature of a value

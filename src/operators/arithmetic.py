@@ -4,9 +4,9 @@
     - Subtraction
     - Multiplication
     - Division
+    - Floor division
     - Modulus
     - Exponentiation
-    - Floor division
 """
 print("\nArithmetic operations")
 print("_________________________________________________________________________________________________")
@@ -62,9 +62,14 @@ print("_________________________________________________________________________
 
 # Number Division
 # Resultant value is quotient of division (floating value)
-print("\nDivision operation between two numbers 10 / 5:", 10 / 5)
+print("\nDivision operation between two numbers 9 / 5:", 9 / 5)
+
 # Resultant value is quotient of division (fixed value)
-print("Floor Division operation between two numbers 10 / 5:", 10 / 5)
+print("Floor Division operation between two numbers 9 // 5:", 9 // 5)
+# This is same as below
+# num1 = 9 / 5  => 1.8
+# print(int(num1)) here we casting 1.8 to 1 (float cast to int)
+
 print("_________________________________________________________________________________________________")
 
 # Number Modulus
