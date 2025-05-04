@@ -1,3 +1,3 @@
 # Python Guide
 
-main.py is the main file
+main.py is the main file.
