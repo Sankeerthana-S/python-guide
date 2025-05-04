@@ -86,5 +86,5 @@ print(len(laptops))
 print("_________________________________________________________________________________________________")
 
 # Note
-# Every element in an index has an index, which starts from 0
+# Every element in a list has an index, which starts from 0
 # In reverse, an element can be referred in negative index starting from -1
