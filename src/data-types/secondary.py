@@ -85,6 +85,8 @@ laptops = ["Hp", "Mac", "Dell"]
 print(len(laptops))
 print("_________________________________________________________________________________________________")
 
-# Note
-# Every element in a list has an index, which starts from 0
-# In reverse, an element in a list can be referred in negative index starting from -1
+"""
+    Note
+    - Every element in a list has an index, which starts from 0
+    - In reverse, an element in a list can be referred in negative index starting from -1
+"""
