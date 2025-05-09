@@ -14,3 +14,6 @@ git pull origin <branch name>
 
 #### Push Code to a branch
 git push origin <branch name>
+
+### Get all remote branches
+git fetch --all
